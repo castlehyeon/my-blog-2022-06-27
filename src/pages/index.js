@@ -1,12 +1,14 @@
 import React from "react";
 import Layout from "../components/layout";
-
+import { StaticImage } from 'gatsby-plugin-image'
 const IndexPage = () => {
   return (
-    <Layout>
-      <title>홈</title>
-
-      <h1>홈 페이지</h1>
+    <Layout pageTitle="Home Page">
+      <StaticImage
+        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        src="../images/dog.jpeg"
+      />
+      <p>I'm making this by following the Gatsby Tutorial.</p>
     </Layout>
   );
 };
