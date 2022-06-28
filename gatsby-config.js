@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `My Blog 2022 06 27`,
+    title: `말랑초코의 블로그`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
@@ -13,5 +13,6 @@ module.exports = {
         path: `${__dirname}/blog`,
       }
     },
+    "gatsby-plugin-mdx",
   ],
 }
